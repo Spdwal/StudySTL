@@ -1,3 +1,4 @@
 #cpp
 a.out
-main*.gch
+main
+*.gch
