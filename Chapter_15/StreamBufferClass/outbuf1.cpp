@@ -1,12 +1,11 @@
-#include<iostream>
-#include"outbuf1.hpp"
+
+#include <iostream>
+#include "outbuf1.hpp"
 
 int main()
 {
-	outbuf ob;
-	std::ostream out(&ob);
+    outbuf ob;                // create special output buffer
+    std::ostream out(&ob);    // initialize output stream with that output buffer
 
-	out << "31 hexadecimal:  " << std::hex << 31 << std::endl;
-
-	return 0;
+    out << "31 hexadecimal: " << std::hex << 31 << std::endl;
 }
