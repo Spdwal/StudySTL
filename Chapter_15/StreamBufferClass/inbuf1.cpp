@@ -16,7 +16,7 @@ int main()
 			in.unget();
 		}
 	}
-	std::cout << std::end;
+	std::cout << std::endl;
 
 	return 0;
 }
